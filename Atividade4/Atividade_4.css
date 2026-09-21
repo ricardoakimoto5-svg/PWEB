@@ -1,0 +1,59 @@
+body {
+    padding: 10px;
+}
+
+/* PRIMEIRA CAIXA */
+.a {
+    display: grid;
+
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        "imagem texto";
+
+    gap: 20px;
+    padding: 20px;
+
+    background-color: orange;
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+.a img {
+    grid-area: imagem;
+
+    width: 200px;
+    height: 200px;
+}
+
+.a .texto {
+    grid-area: texto;
+    text-align: center;
+}
+
+
+/* SEGUNDA CAIXA */
+.b {
+    display: grid;
+
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        "imagem texto";
+
+    gap: 20px;
+    padding: 20px;
+
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.b img {
+    grid-area: imagem;
+
+    width: 200px;
+    height: 200px;
+}
+
+.b .texto {
+    grid-area: texto;
+    text-align: center;
+}
