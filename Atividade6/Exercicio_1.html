@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outra forma de Utilizar JavaScript-Arquivo externo</title>
+   
+</head>
+<body>
+    <script>
+        var nome = prompt("Digite seu nome: ");
+        var nota1 = prompt("Digite sua nota: ");
+        var nota2 = prompt("Digite sua segunda nota: ");
+        var nota3 = prompt("Digite sua terceira nota: ");
+        var nota4 = prompt("Digite sua quarta nota: ");
+
+        var media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3) + parseFloat(nota4)) / 4;
+        media = media.toFixed(2);
+        alert("Olá " + nome + ", sua média é: " + media);
+    </script>
+
+    
+</body>
+</html>
